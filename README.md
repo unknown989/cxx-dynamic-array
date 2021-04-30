@@ -62,3 +62,5 @@ int main(){
 
 }
 ```
+# Licensing
+see LICENSE
