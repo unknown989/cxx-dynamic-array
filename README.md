@@ -49,7 +49,7 @@ int main(){
     arr.append("World");
     arr.append(",");
     arr.append("We're");
-    arr.append("Identic");
+    arr.append("Identical");
     arr.append("Humans");
 
     arr.pop(1); // Remove an element from it
