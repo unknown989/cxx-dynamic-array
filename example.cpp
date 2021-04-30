@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string>
 #include <iostream>
-#include "dynamicarr.h"
+#include "dynamicarr/dynamicarr.h"
 
 
 int main(){
