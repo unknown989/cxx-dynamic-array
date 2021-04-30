@@ -33,3 +33,6 @@ for(int i = 0; i <= arr.get_m_count()-1;i++){
 
 # Important to Read
 * If you wanna use type ```std::string``` it won't work , so instead use ```char*```
+
+# Example
+ see example.cpp
