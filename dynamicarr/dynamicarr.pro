@@ -4,7 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    main.cpp
+    example.cpp
 
 HEADERS += \
-    main.h
+    dynamicarr.h
