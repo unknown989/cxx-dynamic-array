@@ -1,4 +1,4 @@
-# cxx-daynamic-array
+# cxx-dynamic-array
 This is a Header-Only Dynamic Allocated Array Library for C++
 
 
