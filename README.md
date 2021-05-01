@@ -22,12 +22,12 @@ arr.pop(position);
 ```
 * Get from an Array
 ```c++
-arr.get(position);
+arr.get(position); or arr[position];
 ```
 * Loop throw an Array
 ```c++
 for(int i = 0; i <= arr.get_m_count()-1;i++){
-        std::cout << arr.get(i) << " "; // Get an element from it
+        std::cout << arr[i] << " "; // Get an element from it
 }
 ```
 
@@ -56,7 +56,7 @@ int main(){
 
 	// Loop throw it
     for(int i = 0; i <= arr.get_m_count()-1;i++){
-        std::cout << arr.get(i) << " "; // Get an element from it
+        std::cout << arr[i] << " "; // Get an element from it
     }
     printf("\n");
 
