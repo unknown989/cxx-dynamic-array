@@ -18,7 +18,7 @@ int main(){
 
 	// Loop throw it
     for(int i = 0; i <= arr.get_m_count()-1;i++){
-        std::cout << arr.get(i) << " "; // Get an element from it
+        std::cout << arr[i] << " "; // Get an element from it
     }
     printf("\n");
 

@@ -22,7 +22,10 @@ public:
             return (m_array[pos]) ? m_array[pos] : (T)0;
         }
         throw std::out_of_range("Position is out of range");
-        }
+    }
+    T operator[](int pos){
+        return this->get(pos);
+    }
     void append(T value){ // Append to the array by re-allocating its size in the heap using its current size + the size of the value given
         if(m_size < m_size+sizeof(value)){
             realloc(m_array,m_size+sizeof(value));
