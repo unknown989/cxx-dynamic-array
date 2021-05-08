@@ -4,7 +4,7 @@ This is a Header-Only Dynamic Allocated Array Library for C++
 
 ## Including
 ```c++
-#include <dynamicarr/dynamicarr.h>
+#include "dynamicarr/dynamicarr.h"
 ```
 
 ## Usage
