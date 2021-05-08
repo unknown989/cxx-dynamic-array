@@ -12,7 +12,7 @@ public:
     Array(){
         array();
     } // Initialize the array
-    inline T const& array(){
+    void array(){
         m_array = (T*)malloc(sizeof(T)); // Locate a sizeof(a given type) in heap
         m_size = sizeof(T); // Set all necessary variables with the required stuff
         m_count = 0;
@@ -28,7 +28,10 @@ public:
     }
     void append(T value){ // Append to the array by re-allocating its size in the heap using its current size + the size of the value given
         if(m_size < m_size+sizeof(value)){
-            realloc(m_array,m_size+sizeof(value));
+            if(!realloc(m_array,m_size+sizeof(value))){
+            	fprintf(stderr,"Cannot re-allocate array,exiting...\n");
+            	exit(1);
+            };
             m_size = m_size+sizeof(value);
         }
         m_array[m_count] = value;
