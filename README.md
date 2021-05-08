@@ -20,6 +20,14 @@ arr.append(value);
 ```c++
 arr.pop(position);
 ```
+* Get array size
+```c++
+arr.get_m_size();
+```
+* Get array count (Number of elements)
+```c++
+arr.get_m_count();
+```
 * Get from an Array
 ```c++
 arr.get(position); or arr[position];
