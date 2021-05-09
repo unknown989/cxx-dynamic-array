@@ -53,6 +53,13 @@ public:
             throw std::out_of_range("Position is out of range");
         }
     }
+    void update(int pos,T value){
+    	if(pos <= m_count -1){
+    		this->m_array[pos] = value;
+    	}else{
+    		throw std::out_of_range("Position is out of range");
+    	}
+    }
     long long unsigned int get_m_size(){ // Get array size
         return m_size;
     }

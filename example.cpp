@@ -15,6 +15,7 @@ int main(){
     arr.append("Humans");
 
     arr.pop(1); // Remove an element from it
+    arr.update(3,"Same");
 
 	// Loop throw it
     for(int i = 0; i <= arr.get_m_count()-1;i++){
